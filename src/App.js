@@ -6,6 +6,7 @@ import Home from './components/Home';
 import Vitamin from './components/Vitamin';
 import Navigation from './components/Navigation';
 import ProductDetails from './components/ProductDetails';
+import Lost from './components/Lost';
 import data from './data/data.json';
 
 class App extends Component {
@@ -71,6 +72,7 @@ class App extends Component {
                 />
               )
             }} />
+            <Route component={Lost} />
           </Switch>
         </div>
       </Router>
